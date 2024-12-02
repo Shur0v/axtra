@@ -1699,7 +1699,7 @@ video {
     top: 0;
     z-index: 99;
 }
-.header__area-3 {
+.header__area-m {
     position: fixed;
     width: 100%;
     top: 0;
@@ -2182,41 +2182,41 @@ video {
         flex-direction: column;
     }
 }
-.hero__area-3 {
+.hero__area-m {
     padding-top: 190px;
     padding-bottom: 125px;
     position: relative;
     overflow: hidden;
 }
 @media only screen and (min-width: 1400px) and (max-width: 1919px) {
-    .hero__area-3 {
+    .hero__area-m {
         padding-top: 160px;
         padding-bottom: 110px;
     }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
-    .hero__area-3 {
+    .hero__area-m {
         padding-top: 140px;
         padding-bottom: 110px;
     }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .hero__area-3 {
+    .hero__area-m {
         padding-bottom: 100px;
     }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .hero__area-3 {
+    .hero__area-m {
         padding-top: 140px;
     }
 }
 @media only screen and (max-width: 767px) {
-    .hero__area-3 {
+    .hero__area-m {
         padding-top: 130px;
         padding-bottom: 0;
     }
 }
-.hero__area-3::before {
+.hero__area-m::before {
     position: absolute;
     content: "";
     width: 100%;
@@ -2228,7 +2228,7 @@ video {
     background-position: left;
     z-index: -1;
 }
-.hero__area-3::after {
+.hero__area-m::after {
     position: absolute;
     content: "";
     width: 50px;
@@ -2239,43 +2239,43 @@ video {
     background-repeat: no-repeat;
     background-position: right top;
 }
-.hero__area-3 .hero3-img {
+.hero__area-m .hero3-img {
     position: absolute;
     bottom: 0;
     right: 0;
 }
 @media only screen and (min-width: 1400px) and (max-width: 1919px) {
-    .hero__area-3 .hero3-img {
+    .hero__area-m .hero3-img {
         max-width: 1000px;
     }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
-    .hero__area-3 .hero3-img {
+    .hero__area-m .hero3-img {
         max-width: 1000px;
     }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .hero__area-3 .hero3-img {
+    .hero__area-m .hero3-img {
         max-width: 800px;
     }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .hero__area-3 .hero3-img {
+    .hero__area-m .hero3-img {
         max-width: 760px;
     }
 }
 @media only screen and (max-width: 767px) {
-    .hero__area-3 .hero3-img {
+    .hero__area-m .hero3-img {
         position: unset;
     }
 }
-.hero__area-3 .hero3-img-anim {
+.hero__area-m .hero3-img-anim {
     overflow: hidden;
     position: relative;
     width: 350px;
     height: 100%;
 }
-.hero__area-3 .hero3-img-anim img {
+.hero__area-m .hero3-img-anim img {
     position: absolute;
     bottom: 0;
     -o-object-fit: cover;
@@ -2285,11 +2285,11 @@ video {
     margin-left: auto;
     margin-right: auto;
 }
-.hero__area-3 .sec-title-wrapper {
+.hero__area-m .sec-title-wrapper {
     display: inline-block;
     position: unset;
 }
-.hero__area-3 .sec-sub-title {
+.hero__area-m .sec-sub-title {
     font-size: 24px;
     font-weight: 600;
     color: var(--black-2);
@@ -2301,11 +2301,11 @@ video {
     z-index: 2;
 }
 @media only screen and (max-width: 767px) {
-    .hero__area-3 .sec-sub-title {
+    .hero__area-m .sec-sub-title {
         padding-bottom: 15px;
     }
 }
-.hero__area-3 .sec-sub-title::after {
+.hero__area-m .sec-sub-title::after {
     position: absolute;
     content: "";
     width: 90px;
@@ -2314,7 +2314,7 @@ video {
     top: 12px;
     background-color: var(--black-2);
 }
-.hero__area-3 .sec-title {
+.hero__area-m .sec-title {
     z-index: 2;
     font-weight: 600;
     font-size: 306px;
@@ -2323,35 +2323,35 @@ video {
     color: var(--black-2);
 }
 @media only screen and (min-width: 1400px) and (max-width: 1919px) {
-    .hero__area-3 .sec-title {
+    .hero__area-m .sec-title {
         font-size: 260px;
     }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
-    .hero__area-3 .sec-title {
+    .hero__area-m .sec-title {
         font-size: 260px;
     }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .hero__area-3 .sec-title {
+    .hero__area-m .sec-title {
         font-size: 180px;
     }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .hero__area-3 .sec-title {
+    .hero__area-m .sec-title {
         font-size: 130px;
     }
 }
 @media only screen and (max-width: 767px) {
-    .hero__area-3 .sec-title {
+    .hero__area-m .sec-title {
         font-size: 90px;
     }
 }
-.hero__area-3 .title-right {
+.hero__area-m .title-right {
     position: absolute;
     right: 0;
 }
-.hero__area-3 .wrapper {
+.hero__area-m .wrapper {
     --clip-path: circle(65px at left);
     --clip-path-hover: circle(70px at left);
     --clip-path-clicked: circle(100vw at left);
@@ -2374,16 +2374,16 @@ video {
     z-index: 999;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .hero__area-3 .wrapper {
+    .hero__area-m .wrapper {
         display: none;
     }
 }
 @media only screen and (max-width: 767px) {
-    .hero__area-3 .wrapper {
+    .hero__area-m .wrapper {
         display: none;
     }
 }
-.hero__area-3 .video-info {
+.hero__area-m .video-info {
     width: 300px;
     position: relative;
     left: 500px;
@@ -2391,18 +2391,18 @@ video {
     height: 200px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .hero__area-3 .video-info {
+    .hero__area-m .video-info {
         left: 200px;
         top: -50px;
     }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .hero__area-3 .video-info {
+    .hero__area-m .video-info {
         left: 280px;
         top: -235px;
     }
 }
-.hero__area-3 .video {
+.hero__area-m .video {
     height: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2423,7 +2423,7 @@ video {
     top: 55px;
     left: 100px;
 }
-.hero__area-3 .video::before {
+.hero__area-m .video::before {
     position: absolute;
     top: -20px;
     left: -20px;
@@ -2434,7 +2434,7 @@ video {
     z-index: 999999999999;
     background-size: 100%;
 }
-.hero__area-3 .video video {
+.hero__area-m .video video {
     position: fixed;
     top: 0;
     left: 0;
@@ -2443,24 +2443,24 @@ video {
     width: auto;
     height: auto;
 }
-.hero__area-3 .intro-title {
+.hero__area-m .intro-title {
     position: relative;
     left: 175px;
     top: 70px;
 }
-.hero__area-3 .intro-title .video-title {
+.hero__area-m .intro-title .video-title {
     font-size: 16px;
     text-transform: uppercase;
     line-height: 1.3;
 }
-.hero__area-3 .intro-title .video-title span {
+.hero__area-m .intro-title .video-title span {
     display: block;
     font-size: 18px;
 }
-.hero__area-3 .intro-title .video-title.close-video-title {
+.hero__area-m .intro-title .video-title.close-video-title {
     display: none;
 }
-.hero__area-3 #video_check {
+.hero__area-m #video_check {
     width: 200px;
     height: 200px;
     margin: auto;
@@ -2476,16 +2476,16 @@ video {
     appearance: none;
     z-index: 9999999;
 }
-.hero__area-3.start-video .hero3-img {
+.hero__area-m.start-video .hero3-img {
     opacity: 0;
 }
-.hero__area-3.start-video .hero__text-3 p,
-.hero__area-3.start-video .intro-title .video-title,
-.hero__area-3.start-video .sec-sub-title,
-.hero__area-3.start-video .sec-title {
+.hero__area-m.start-video .hero__text-3 p,
+.hero__area-m.start-video .intro-title .video-title,
+.hero__area-m.start-video .sec-sub-title,
+.hero__area-m.start-video .sec-title {
     color: var(--white-4);
 }
-.hero__area-3.start-video .sec-sub-title::after {
+.hero__area-m.start-video .sec-sub-title::after {
     background-color: var(--white);
 }
 .hero__area-4 {
@@ -16335,39 +16335,39 @@ body {
     left: -60px;
     right: unset;
 }
-.dir-rtl .hero__area-3::after {
+.dir-rtl .hero__area-m::after {
     right: unset;
     left: 50px;
 }
-.dir-rtl .hero__area-3::before {
+.dir-rtl .hero__area-m::before {
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
 }
-.dir-rtl .hero__area-3 .hero3-img {
+.dir-rtl .hero__area-m .hero3-img {
     right: unset;
     left: 0;
 }
-.dir-rtl .hero__area-3 .video-info {
+.dir-rtl .hero__area-m .video-info {
     left: unset;
     right: 500px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .dir-rtl .hero__area-3 .video-info {
+    .dir-rtl .hero__area-m .video-info {
         right: 330px;
     }
 }
-.dir-rtl .hero__area-3 .intro-title {
+.dir-rtl .hero__area-m .intro-title {
     left: 0;
 }
-.dir-rtl .hero__area-3 .title-right {
+.dir-rtl .hero__area-m .title-right {
     right: unset;
     left: 0;
 }
-.dir-rtl .hero__area-3 .sec-sub-title {
+.dir-rtl .hero__area-m .sec-sub-title {
     padding-right: 0;
     padding-left: 30px;
 }
-.dir-rtl .hero__area-3 .sec-sub-title::after {
+.dir-rtl .hero__area-m .sec-sub-title::after {
     left: unset;
     right: 100%;
 }

@@ -229,7 +229,7 @@
 
   /////////////////////////////////////////////////////
   // Header 3
-  let header_bg_3 = document.querySelector(".header__area-3");
+  let header_bg_3 = document.querySelector(".header__area-m");
   if (header_bg_3) {
     window.onscroll = function () {
       if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
@@ -1843,8 +1843,8 @@
 
 
   // Charchater Come long Animation 
-  let mark = document.querySelector(".hero__area-3 .title-left")
-  let eting = document.querySelector(".hero__area-3 .title-right")
+  let mark = document.querySelector(".hero__area-m .title-left")
+  let eting = document.querySelector(".hero__area-m .title-right")
   let hero__text_animation = document.querySelector(".hero__text-animation")
 
 
